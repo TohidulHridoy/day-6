@@ -1,0 +1,85 @@
+.parent{
+    width: 250px;
+   
+    box-shadow: 3px 3px 30px #605e5e77;
+    position: relative;
+
+    
+}
+.parent img{
+    width: 100%;
+}
+.parent .top span{
+    background: #6E2594;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+
+}
+.contains{
+    padding: 15px;
+}
+.contains h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+.contains h4:hover{
+    color: #ef4a23;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.contains ul{
+    padding-left: 15px;
+}
+ul li{
+    font-size: 13px;
+    color: #666;
+    margin: 8px;
+    
+}
+.price{
+    text-align: center;
+    margin: 15px 0;
+}
+.price span{
+    color: #d51e0b;
+}
+.discount{
+
+}
+.discount a{
+    width: 100%;
+    display: block;
+    background-color: rgb(55, 73, 187, .05);
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.discount a:hover{
+    background: #3749BB;
+}
+.compare a{
+    width: 100%;
+    display: block;
+    background-color:wheat ;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.compare a:hover{
+    background: #dfdfe9;
+}
